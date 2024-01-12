@@ -1,0 +1,6 @@
+@article{REPO166,
+    author = "Williams, Ross and Hosseinichimeh, Niyousha and Majumdar, Aritra and Ghaffarzadegan, Navid",
+    journal = "arXiv preprint arXiv:2307.04986",
+    title = "{Epidemic Modeling with Generative Agents}",
+    year = "2023"
+}
