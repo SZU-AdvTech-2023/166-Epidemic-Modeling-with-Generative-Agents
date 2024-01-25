@@ -1,0 +1,30 @@
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:09<00:09,  9.47s/it]100%|██████████| 2/2 [00:36<00:00, 20.01s/it]100%|██████████| 2/2 [00:36<00:00, 18.43s/it]
+USER: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 303, in <module>
+    main(args)
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 226, in main
+    chat_loop(
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/inference.py", line 414, in chat_loop
+    inp = chatio.prompt_for_input(conv.roles[0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 46, in prompt_for_input
+    return input(f"{role}: ")
+           ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 9] Bad file descriptor
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:09<00:09,  9.53s/it]100%|██████████| 2/2 [00:30<00:00, 15.99s/it]100%|██████████| 2/2 [00:30<00:00, 15.03s/it]
+USER: Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 303, in <module>
+    main(args)
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 226, in main
+    chat_loop(
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/inference.py", line 414, in chat_loop
+    inp = chatio.prompt_for_input(conv.roles[0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dsll/pythonCode/FastChat/fastchat/serve/cli.py", line 46, in prompt_for_input
+    return input(f"{role}: ")
+           ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 9] Bad file descriptor
